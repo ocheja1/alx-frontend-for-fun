@@ -1,11 +1,11 @@
-// 6-nested_hover.scss
-
+/* Sass file */
+$color-0: #FF0000;
+$color-1: #00FF00;
 button {
-	color: #FF0000;
-  
-	button:hover {
-	  color: #00FF00;
-	}
+  color: $color-0;
+  &:hover {
+    color: $color-1;
   }
+}
   
   
